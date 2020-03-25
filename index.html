@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amar Ćatović - Profile</title>
+
+    <!-- Imports -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8710f761f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Assets/js/fetch.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/Site.css" />
+  </head>
+  <body>
+
+    <!-- NavBar -->
+    <nav>
+      <div class="nav-left">
+        <img src="/Assets/imgs/profile-img.png" class="nav-img" alt="profile picture">
+        <h3>Amar Ćatović</h3>
+      </div>
+      <div class="nav-right">
+        <a href="https://github.com/amarcatovic" target="_blank">Github  <i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/amar-%C4%87atovi%C4%87-191137183/" target="_blank">LinkedIn  <i class="fab fa-linkedin"></i></a>
+        <a href="#contact">Contact  <i class="fas fa-user-friends"></i></a>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="home">
+      <video src="Assets/videos/typing.mov" autoplay muted loop id="video-bg"></video>
+      <h1>Hello There</h1>
+      <h3>My name is Amar Ćatović</h3>
+      <h4>I'm 22 years old sfotware engineering student from Zenica</h4>
+      <a href="#biografija" class="btn">Meet me</a>
+    </section>
+
+    <!-- Biografija -->
+    <section id="biografija" class="biografija">
+      <div class="bio-left">
+        <div class="bio-main">
+            <img id="myphoto" src="/Assets/imgs/bio-img.jpg" alt="My photo">
+            <h4>Amar Ćatović</h4>
+            <div>
+              <h5><i class="fas fa-home"></i> Zenica</h5>
+              <h5><i class="fas fa-university"></i> Politechnical Faculty of Zenica</h5>
+              <h5><i class="fas fa-book"></i> Software Engineering 2/3</h5>
+            </div>
+        </div>
+        <div class="bio-about">
+          <p><span>About me:</span> I am a second year software engineering student interested in 
+          backend technologies and video game programming. I am a driven individual with the ability to adapt to any situation and proven potencial to grow self and others. In my spare time I build video games and work on personal projects.</p>
+        </div>
+      </div>
+      <div class="bio-right">
+        <div class="panel">
+          <h2>Education</h2>
+          <div>
+            <h5>Software Engineering - <a href="http://ptf.unze.ba/">Politechnical Faculty Zenica</a></h5>
+            <h6>2017-2018</h6>
+            <hr>
+            <h5>Automation Control and Electronics - <a href="http://www.etf.unsa.ba/">Faculty Of Electrical Engineering Sarajevo</a></h5>
+            <h6>2017-2018</h6>
+            <hr>
+            <h5>Computer science and automatic control - <a href="http://tscze.com.ba/">Technical School Zenica</a></h5>
+            <h6>2013-2017</h6>
+          </div>
+        </div>
+        <div class="panel">
+            <h2>Skills</h2>
+            <div class="skills">
+              <div class="skill-trio">
+                <div class="skill">
+                    <i class="fab fa-cuttlefish fa-2x"></i>
+                    <h3>C++</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-windows fa-2x"></i>
+                    <h3>C#</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-windows fa-2x"></i>
+                    <h3>ASP.NET MVC</h3>
+                </div>
+              </div>
+              <div class="skill-trio">
+                <div class="skill">
+                    <i class="fas fa-database fa-2x"></i>
+                    <h3>MS SQL</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database fa-2x"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <h3>HTML 5</h3>
+                </div>
+              </div>
+              <div class="skill-trio">
+                <div class="skill">
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                    <h3>CSS 3</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square fa-2x"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-angular fa-2x"></i>
+                    <h3>Angular 2</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+              <h2 id="long-header-text">Organisational/Communication Skills</h2>
+              <div class="skills">
+                <div class="skill">
+                    <i class="fas fa-ruler fa-2x"></i>
+                    <h3>Planning</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-lightbulb fa-2x"></i>
+                    <h3>Problem Solving</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-user-plus fa-2x"></i>
+                    <h3>Team Player</h3>
+                </div>        
+              </div>
+          </div>
+          <div class="panel">
+              <h2>Hobbies</h2>
+              <div class="skills">
+                <div class="skill">
+                    <i class="fas fa-plane fa-2x"></i>
+                    <h3>Travelling</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-futbol fa-2x"></i>
+                    <h3>Sport</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-dumbbell fa-2x"></i>
+                    <h3>Gym</h3>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-laptop fa-2x"></i>
+                    <h3>Coding</h3>
+                </div>                
+              </div>
+            </div>
+            <div class="panel">
+                <h2>I am..</h2>
+                <div class="skills">
+                  <div class="skill">
+                      <h4>100<i class="fas fa-percent"></i></h4>
+                      <h3>Liable</h3>
+                  </div>
+                  <div class="skill">
+                      <h4>100<i class="fas fa-percent"></i></h4>
+                      <h3>Motivated</h3>
+                  </div>
+                  <div class="skill">
+                      <h4>100<i class="fas fa-percent"></i></h4>
+                      <h3>Detail Oriented</h3>
+                  </div>
+                  <div class="skill">
+                      <h4>100<i class="fas fa-percent"></i></h4>
+                      <h3>Loyal</h3>
+                  </div>            
+                </div>
+              </div>
+              <div class="panel">
+                  <h2>Some of my Projects</h2>
+                  <div class="projects">
+                  <div class="github-project project1">
+                      <div class="github-header">
+                        <i class="fab fa-github fa-4x"></i>
+                        <h2 id="github-project-name-text1">Naslov</h2>
+                      </div>
+                      <div class="github-language">
+                        <i class="fas fa-laptop-code"></i>
+                        <p id="github-language-text1">Language: HTML</p>
+                      </div>
+                      <a
+                        id="github-project-link1"
+                        class="btn"
+                        href="#"
+                        target="_blank">Check it Out</a>
+                    </div>
+                    <div class="github-project project2">
+                        <div class="github-header">
+                          <i class="fab fa-github fa-4x"></i>
+                          <h2 id="github-project-name-text2">Naslov</h2>
+                        </div>
+                        <div class="github-language">
+                          <i class="fas fa-laptop-code"></i>
+                          <p id="github-language-text2">Language: HTML</p>
+                        </div>
+                        <a
+                          id="github-project-link2"
+                          class="btn"
+                          href="#"
+                          target="_blank">Check it Out</a>
+                      </div>
+                      <div class="github-project project3">
+                          <div class="github-header">
+                            <i class="fab fa-github fa-4x"></i>
+                            <h2 id="github-project-name-text3">Naslov</h2>
+                          </div>
+                          <div class="github-language">
+                            <i class="fas fa-laptop-code"></i>
+                            <p id="github-language-text3">Language: HTML</p>
+                          </div>
+                          <a
+                            id="github-project-link3"
+                            class="btn"
+                            href="#"
+                            target="_blank">Check it Out</a>
+                        </div>
+                  </div>
+                </div>
+      </div>
+    </section>
+
+    <section class="contact-me">
+      <div class="contact-left">
+        <div class="contact-header">
+          <h2>Don't be a stranger</h2>
+          <h3>Say hello</h3>
+        </div>
+        <div class="contact-text">
+          <p>Feel free to get in touch with me. I am always open to discuss about new projects, creative ideas or oppertunities to be appart of your visions</p>
+        </div>
+        <div class="social">
+          <div class="social-network">
+              <i class="fab fa-facebook-square"></i>
+              <a href="https://www.facebook.com/amar.catovic.39">Facebook</a>
+          </div>
+          <div class="social-network">
+              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/amar_cata/">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <div class="from-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control">
+          </div>
+          <div class="from-group">
+            <label for="email">Email</label>
+            <input id="email" type="text" class="form-control" placeholder="your@email.com">
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+              <label for="reason">Purpose of contact</label>
+              <select class="form-control" id="reason">
+                <option>Job Offer</option>
+                <option>Friendship</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      Copyright &copy; <span id="date">2020</span> Amar Ćatović - All Rights Reserved</footer>
+  </body>
+</html>
