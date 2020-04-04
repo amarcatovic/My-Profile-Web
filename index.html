@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='icon' href='favicon.png' type='image/x-icon' />
     <title>Amar Ćatović - Profile</title>
 
     <!-- Imports -->
@@ -12,6 +13,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="Assets/js/fetch.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script src="Assets/js/email.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/Site.css" />
   </head>
@@ -26,7 +29,7 @@
       <div class="nav-right">
         <a href="https://github.com/amarcatovic" target="_blank">Github  <i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/amar-%C4%87atovi%C4%87-191137183/" target="_blank">LinkedIn  <i class="fab fa-linkedin"></i></a>
-        <a href="#contact">Contact  <i class="fas fa-user-friends"></i></a>
+        <a href="#contact-me">Contact  <i class="fas fa-user-friends"></i></a>
       </div>
     </nav>
 
@@ -47,7 +50,7 @@
             <h4>Amar Ćatović</h4>
             <div>
               <h5><i class="fas fa-home"></i> Zenica</h5>
-              <h5><i class="fas fa-university"></i> Politechnical Faculty of Zenica</h5>
+              <h5><i class="fas fa-university"></i> Polytechnic Faculty Zenica</h5>
               <h5><i class="fas fa-book"></i> Software Engineering 2/3</h5>
             </div>
         </div>
@@ -60,8 +63,8 @@
         <div class="panel">
           <h2>Education</h2>
           <div>
-            <h5>Software Engineering - <a href="http://ptf.unze.ba/">Politechnical Faculty Zenica</a></h5>
-            <h6>2017-2018</h6>
+            <h5>Software Engineering - <a href="http://ptf.unze.ba/">Polytechnic Faculty Zenica</a></h5>
+            <h6>2018-present</h6>
             <hr>
             <h5>Automation Control and Electronics - <a href="http://www.etf.unsa.ba/">Faculty Of Electrical Engineering Sarajevo</a></h5>
             <h6>2017-2018</h6>
@@ -111,8 +114,8 @@
                     <h3>JavaScript</h3>
                 </div>
                 <div class="skill">
-                    <i class="fab fa-angular fa-2x"></i>
-                    <h3>Angular 2</h3>
+                    <i class="fab fa-react fa-2x"></i>
+                    <h3>React Native</h3>
                 </div>
               </div>
             </div>
@@ -229,7 +232,7 @@
       </div>
     </section>
 
-    <section class="contact-me">
+    <section id="contact-me" class="contact-me">
       <div class="contact-left">
         <div class="contact-header">
           <h2>Don't be a stranger</h2>
@@ -272,7 +275,7 @@
               <textarea class="form-control" id="message" rows="3"></textarea>
           </div>
 
-          <button type="submit" class="btn">Submit</button>
+          <button type="submit" class="btn" onclick="sendEmail()">Submit</button>
         </form>
       </div>
     </section>

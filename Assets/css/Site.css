@@ -156,6 +156,7 @@ nav{
   flex-direction: column;
   margin: 20px 0;
   padding: 30px;
+  border-radius: 20px;
 }
 
 .bio-main{
@@ -254,6 +255,11 @@ nav{
   font-size: 1.5rem;
 }
 
+.skill:hover{
+  font-size: 2rem;
+  color: black;
+}
+
 .panel .projects{
   display: flex;
   flex-direction: row;
@@ -322,6 +328,10 @@ nav{
   flex-direction: row;
 }
 
+.github-project:hover {
+  background: rgb(50, 56, 63);
+}
+
 /* CONTACT */
 .contact-me{
   display: flex;
@@ -338,6 +348,7 @@ nav{
   justify-content: space-between;
   width: 60%;
   height: 100%;
+  padding-right: 10px;
 }
 
 .contact-right{
