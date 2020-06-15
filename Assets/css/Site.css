@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   width: 100vw;
-  background: rgb(234,232,231);
+  background: rgb(234, 232, 231);
 }
 
 .btn {
@@ -27,12 +27,12 @@ body {
   color: white;
 }
 
-img{
+img {
   width: 100%;
 }
 
 /* NAVBAR */
-nav{
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -45,7 +45,7 @@ nav{
   z-index: 5;
 }
 
-.nav-left{
+.nav-left {
   grid-column: 2/4;
   display: flex;
   justify-content: center;
@@ -54,13 +54,13 @@ nav{
   flex-direction: row;
 }
 
-.nav-left h3{
+.nav-left h3 {
   margin-left: 20px;
   color: white;
   font-size: 1.7rem;
 }
 
-.nav-right{
+.nav-right {
   grid-column: 10/-1;
   display: flex;
   justify-content: center;
@@ -68,20 +68,20 @@ nav{
   flex-direction: row;
 }
 
-.nav-right a{
+.nav-right a {
   text-decoration: none;
   color: white;
   margin: 10px 10px;
   font-size: 1.2rem;
 }
 
-.nav-right a:hover{
+.nav-right a:hover {
   color: black;
   font-size: 1.5rem;
 }
 
-.nav-img{
-  background: url('../imgs/profile-img.png');
+.nav-img {
+  background: url("../imgs/profile-img.png");
   background-position: center;
   background-position: center;
   border-radius: 90px;
@@ -90,7 +90,7 @@ nav{
 }
 
 /* HOME PAGE */
-.home{
+.home {
   height: 100vh;
   width: 100%;
   color: white;
@@ -100,51 +100,54 @@ nav{
   flex-direction: column;
   background-position: center;
   background-size: cover;
-  font-family: 'Source Code Pro', monospace;
-  position:relative;
+  font-family: "Source Code Pro", monospace;
+  position: relative;
 }
 
 #video-bg {
-  position: absolute; 
-  top: 0; left:0;
-  width: 100%; height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
-}    
+  object-fit: fill;
+}
 
-.home h1{
+.home h1 {
   font-size: 7rem;
   margin-bottom: 50px;
 }
 
-.home h3{
+.home h3 {
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.home h4{
+.home h4 {
   font-size: 2rem;
   margin-bottom: 170px;
 }
 
-.btn-home{
+.btn-home {
   color: white;
-  background:black;
+  background: black;
   box-shadow: 1px 1px 1px white;
 }
 
-.btn-home:hover{
+.btn-home:hover {
   background: white;
   color: black;
   box-shadow: 1px 1px 1px black;
 }
 
 /* BIOGRAFIJA */
-.biografija{
+.biografija {
   display: grid;
-  grid-template-columns: repeat(36,1fr);
+  grid-template-columns: repeat(36, 1fr);
 }
 
-.bio-left{
+.bio-left {
   height: 100%;
   width: 100%;
   background: rgb(52, 57, 63);
@@ -159,7 +162,7 @@ nav{
   border-radius: 20px;
 }
 
-.bio-main{
+.bio-main {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -167,19 +170,19 @@ nav{
   justify-content: center;
 }
 
-.bio-main h4{
+.bio-main h4 {
   margin: 20px 0;
   text-align: center;
   font-size: 1.8rem;
-  font-family: 'Baloo Da 2', cursive;
+  font-family: "Baloo Da 2", cursive;
 }
 
-.bio-about p{
+.bio-about p {
   margin: 20px 0;
   text-align: left;
 }
 
-.bio-right{
+.bio-right {
   height: 100%;
   width: 100%;
   color: rgb(0, 0, 0);
@@ -190,10 +193,10 @@ nav{
   flex-direction: column;
 }
 
-.panel{
-  box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+.panel {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
   background: white;
-  color: rgb(119,115,114);
+  color: rgb(119, 115, 114);
   width: 100%;
   padding: 50px;
   display: flex;
@@ -204,63 +207,63 @@ nav{
   margin: 20px 0;
 }
 
-.panel h2{
-    font-size: 2rem;
-    margin-bottom: 50px;
-    font-family: 'Baloo Da 2', cursive;
+.panel h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  font-family: "Baloo Da 2", cursive;
 }
 
-.panel div{
+.panel div {
   font-size: 1.3rem;
 }
 
-.panel div a{
+.panel div a {
   text-decoration: none;
   color: rgb(144, 138, 136);
   font-style: italic;
 }
 
-.panel div h6{
+.panel div h6 {
   color: rgb(52, 57, 63);
   margin: 5px 0;
 }
 
-.panel div a:hover{
+.panel div a:hover {
   text-decoration: underline;
   color: rgb(0, 0, 0);
   font-style: italic;
 }
 
-.panel div hr{
+.panel div hr {
   margin: 10px 0;
 }
 
-.panel .skills{
+.panel .skills {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.panel .skills .skill{
+.panel .skills .skill {
   margin: 0 15px;
   font-size: 0.8rem;
 }
 
-.panel .skills .skill h3{
+.panel .skills .skill h3 {
   margin: 10px 0;
 }
 
-.panel .skills .skill h4{
+.panel .skills .skill h4 {
   font-size: 1.5rem;
 }
 
-.skill:hover{
+.skill:hover {
   font-size: 2rem;
   color: black;
 }
 
-.panel .projects{
+.panel .projects {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -323,7 +326,7 @@ nav{
   color: white;
 }
 
-.skill-trio{
+.skill-trio {
   display: flex;
   flex-direction: row;
 }
@@ -333,7 +336,7 @@ nav{
 }
 
 /* CONTACT */
-.contact-me{
+.contact-me {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -341,7 +344,7 @@ nav{
   padding: 100px;
 }
 
-.contact-left{
+.contact-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -351,57 +354,58 @@ nav{
   padding-right: 10px;
 }
 
-.contact-right{
+.contact-right {
   width: 40%;
   border: 1px dashed black;
   padding: 20px;
 }
 
-.contact-me .contact-header h2, .contact-me .contact-header h3{
-  font-family: 'Baloo Da 2', cursive;
+.contact-me .contact-header h2,
+.contact-me .contact-header h3 {
+  font-family: "Baloo Da 2", cursive;
   font-size: 3rem;
   color: rgb(77, 79, 102);
 }
 
-.contact-me .contact-header h3{
+.contact-me .contact-header h3 {
   font-size: 2rem;
 }
 
-.contact-text{
+.contact-text {
   font-size: 1.3rem;
   margin: 50px 0;
   text-align: center;
 }
 
-.social{
+.social {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.social-network{
+.social-network {
   text-align: center;
   margin: 0 20px;
 }
 
-.social-network a{
+.social-network a {
   text-decoration: none;
   color: black;
 }
 
-.social-network:hover{
+.social-network:hover {
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.form-group{
+.form-group {
   margin: 10px 0;
 }
 
 /* FOOTER */
-footer{
-  font-family: 'Crimson Text', serif;
+footer {
+  font-family: "Crimson Text", serif;
   font-size: 1.2rem;
   text-align: center;
   background: rgb(52, 57, 63);
@@ -413,17 +417,16 @@ footer{
 /* RESPONSIVE */
 /* ---------- */
 @media only screen and (max-width: 1400px) {
-
-  nav{
+  nav {
     font-size: 0.8rem;
     text-align: center;
   }
 
-  .skill-trio{
+  .skill-trio {
     flex-direction: column;
   }
 
-  .panel .projects{
+  .panel .projects {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -436,128 +439,125 @@ footer{
 }
 
 @media only screen and (max-width: 1000px) {
-
-  nav{
+  nav {
     font-size: 0.8rem;
     text-align: center;
   }
 
-  .bio-main div{
+  .bio-main div {
     text-align: left;
   }
 
-  .biografija{
-    grid-template-columns: repeat(1,1fr); 
+  .biografija {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  #myphoto{
+  #myphoto {
     width: 30%;
   }
 
-  .biografija{
+  .biografija {
     padding: 30px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-
-  nav{
+  nav {
     flex-direction: column;
     position: relative;
     padding: 0;
   }
 
-  .home{  
-      background: url('../imgs/bg-home.jpg');
-      background-position: center;
-      background-size: cover;
-      position:relative;
-      color: black;
-      text-align: center;
+  .home {
+    background: url("../imgs/bg-home.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    text-align: center;
   }
 
-  .home h1{
+  .home h1 {
     font-size: 3rem;
     margin-bottom: 30px;
   }
-  
-  .home h3{
+
+  .home h3 {
     font-size: 2rem;
     margin-bottom: 10px;
   }
-  
-  .home h4{
+
+  .home h4 {
     font-size: 1rem;
     margin-bottom: 100px;
   }
 
-  .biografija{
+  .biografija {
     width: 100%;
     padding: 0;
   }
 
-  .nav-left{
+  .nav-left {
     flex-direction: row;
   }
- 
-  .nav-left h3{
+
+  .nav-left h3 {
     margin-left: 0px;
   }
-  
-  .nav-right{
+
+  .nav-right {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .nav-right a{
+  .nav-right a {
     margin: 10px 0;
   }
 
-  .biografija{
-    grid-template-columns: repeat(1,1fr); 
+  .biografija {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .contact-me{
-   flex-direction: column;
-   padding: 10px;
+  .contact-me {
+    flex-direction: column;
+    padding: 10px;
   }
 
-  .contact-left{
+  .contact-left {
     width: 100%;
   }
-  
-  .contact-right{
+
+  .contact-right {
     width: 100%;
     border: none;
   }
 
-  .skills{
+  .skills {
     flex-direction: column;
   }
 
-  #long-header-text{
+  #long-header-text {
     font-size: 1rem;
   }
 
-  .skill{
+  .skill {
     margin: 0;
   }
 
-  .github-project{
+  .github-project {
     margin: 10px 0;
     width: 80%;
   }
 
-  .github-header h2{
+  .github-header h2 {
     font-size: 1rem;
   }
 
-  .github-language p{
+  .github-language p {
     font-size: 0.8rem;
   }
 
-  .contact-header{
+  .contact-header {
     text-align: center;
   }
 }
-
