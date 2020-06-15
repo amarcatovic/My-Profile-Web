@@ -11,20 +11,25 @@ body {
 }
 
 .btn {
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   border-radius: 40px;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.329);
   background: white;
   color: black;
   text-align: center;
+  font-weight: bold;
 }
 
 .btn:hover {
   font-size: 1.6rem;
   background: rgb(52, 57, 63);
   color: white;
+}
+
+a {
+  cursor: pointer;
 }
 
 img {
@@ -287,6 +292,12 @@ nav {
   margin: 20px 20px;
 }
 
+#github-project-name-text1,
+#github-project-name-text2,
+#github-project-name-text3 {
+  padding: 10px;
+}
+
 .github-header {
   display: flex;
   flex-direction: row;
@@ -546,7 +557,7 @@ footer {
 
   .github-project {
     margin: 10px 0;
-    width: 80%;
+    width: 33%;
   }
 
   .github-header h2 {
